@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   // Life-Cycle Method: React puts the component on the page
-  // and calls this block of code
+  // and calls this block of code.
   componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then((response) => response.json())
